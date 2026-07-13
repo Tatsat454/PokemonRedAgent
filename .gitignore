@@ -1,0 +1,17 @@
+# Never commit Pokemon ROMs
+*.gb
+*.gbc
+*.gba
+PokemonRed.gb
+PokemonBlue.gb
+
+# Python / local
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+runs/
+*.ram
+
+# Keep maps/models/tensorboard that we intentionally add
