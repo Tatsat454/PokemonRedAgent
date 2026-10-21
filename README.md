@@ -19,6 +19,7 @@ Inspired by [PWhiddy/PokemonRedExperiments](https://github.com/PWhiddy/PokemonRe
 - Run 6 suffered a complete **policy-entropy collapse** (entropy fell to ~1e-23, mean reward fell to -1637). Entropy was the only early-warning signal; reward alone looked fine until it was too late.
 - Why it stalls: the per-episode novelty bonus keeps re-rewarding the already-explored start area, which makes pushing deeper into the maze-like forest a worse bet than staying shallow. Pixels alone also hide the state (badges, party, story flags) that determines long-run return.
 See the paper for full details and [`NOTES.md`](NOTES.md) for additional findings and limitations.
+- https://docs.google.com/document/d/1HaAOO3b5t3lAIz2GwrsnaVq0HMLWEooRY3ZeUTaRJTY/edit?usp=sharing
  
 ## Runs
  
